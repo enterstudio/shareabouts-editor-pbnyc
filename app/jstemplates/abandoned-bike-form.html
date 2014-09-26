@@ -57,7 +57,8 @@
             <div class="row">
               <div class="large-8 columns">
 
-                <label>Name <em>(shown on map)</em><input type="text" name="submitter_name" value="{{ submitter_name }}{{ submitter.name }}"></label>
+                <label>Name (if logged in)<em>(shown on map)</em><input type="text" name="submitter_name" value="{{ submitter.name }}"></label>
+                <label>Name (if not logged in)<em>(shown on map)</em><input type="text" name="submitter_name" value="{{ submitter_name }}"></label>
                 <label>Email <em>(private)</em><input type="text" name="private-email" value="{{ private-email }}"></label>
                 <label>Phone Number <em>(private)</em><input type="text" name="private-phone" value="{{ private-phone }}"></label>
                 <label>Zip Code <em>(private)</em><input type="text" name="private-zip" value="{{ private_date_removed }}"></label>
