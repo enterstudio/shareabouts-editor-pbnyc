@@ -16,8 +16,8 @@ var Shareabouts = Shareabouts || {};
   // Initialize the dataset collection
   NS.app.addInitializer(function(options){
     NS.datasetCollection = new Backbone.Collection([
-      { id: 'pbnyc-2016', name: 'PBNYC Ideas (2015/16)', url: 'https://data.shareabouts.org/api/v2/pbnyc/datasets/pbnyc-2014', dataUrl: 'http://data.shareabouts.org/api/v2/pbnyc/datasets/pbnyc-2016/places?include_invisible&include_private&page_size=5000&format=csv'},
-      { id: 'pbnyc-2014', name: 'PBNYC Ideas (2014/15)', url: 'https://data.shareabouts.org/api/v2/pbnyc/datasets/pbnyc-2014', dataUrl: 'http://data.shareabouts.org/api/v2/pbnyc/datasets/pbnyc-2014/places?include_invisible&include_private&page_size=5000&format=csv'}
+      { id: 'pbnyc-2016', name: 'PBNYC Ideas (2015/16)', url: 'https://data.shareabouts.org/api/v2/pbnyc/datasets/pbnyc-2014', dataUrl: 'http://data.shareabouts.org/api/v2/pbnyc/datasets/pbnyc-2016/places?include_invisible&include_private&page_size=5000&format=csv'}//,
+      // { id: 'pbnyc-2014', name: 'PBNYC Ideas (2014/15)', url: 'https://data.shareabouts.org/api/v2/pbnyc/datasets/pbnyc-2014', dataUrl: 'http://data.shareabouts.org/api/v2/pbnyc/datasets/pbnyc-2014/places?include_invisible&include_private&page_size=5000&format=csv'}
     ]);
   });
 
